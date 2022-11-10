@@ -1,2 +1,3 @@
-# Alzheimer-detection
-Using deep learning models to detect Alzheimer's disease in all stages (part of Samsung Innovation Campus program)
+# Brain-tumor-detection
+
+Using deep learning models to detect brain tumors (part of Samsung Innovation Campus program)
