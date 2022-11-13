@@ -21,7 +21,7 @@ value = st.sidebar.selectbox("Model", options, format_func=lambda x: display[x])
 print(value)
 
 if value == 1:
-    tflite_interpreter = tf.lite.Interpreter(model_path="code/model.tflite")
+    tflite_interpreter = tf.lite.Interpreter(model_path="./code/model.tflite")
     tflite_interpreter.allocate_tensors()
 
 
