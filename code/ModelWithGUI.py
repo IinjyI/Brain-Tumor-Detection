@@ -40,7 +40,6 @@ if uploaded_file is not None:
     img = Image.open(uploaded_file)
     img = img.resize((224, 224))
     st.image(img)
-    img = tf.image.convert_image_dtype(img, tf.uint8)
     img_array = tf.keras.preprocessing.image.img_to_array(img)
     img_array = tf.expand_dims(img_array, 0)
 
